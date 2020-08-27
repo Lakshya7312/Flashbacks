@@ -61,7 +61,7 @@ class Start {
     text("Overview:", windowWidth / 4 - 450, windowHeight / 2 - 300);
     textSize(18);
     text(
-      "You are a person that has the ability to time travel.",
+      "You are a soldier that has the ability to time travel.",
       windowWidth / 4 - 450,
       windowHeight / 2 - 250
     );
