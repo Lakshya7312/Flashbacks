@@ -190,7 +190,7 @@ function setup() {
   invis_ground = createSprite(
     windowWidth / 2,
     windowHeight / 2 + 374,
-    displayWidth,
+    displayWidth+700,
     10
   );
   invis_ground.visible = false;
