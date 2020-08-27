@@ -214,10 +214,10 @@ function setup() {
   life.addImage("live", lifeImg);
 
   //create sprites for various time machine parts
-  time1 = createSprite(windowWidth + 200000, windowHeight / 2 + 355, 10, 10);
-  time2 = createSprite(windowWidth + 100000, windowHeight / 2 + 330, 10, 10);
-  time3 = createSprite(windowWidth + 300000, windowHeight / 2 + 325, 10, 10);
-  time4 = createSprite(windowWidth + 400000, windowHeight / 2 + 355, 10, 10);
+  time1 = createSprite(400000, windowHeight / 2 + 355, 10, 10);
+  time2 = createSprite(400000, windowHeight / 2 + 330, 10, 10);
+  time3 = createSprite(400000, windowHeight / 2 + 325, 10, 10);
+  time4 = createSprite(400000, windowHeight / 2 + 355, 10, 10);
 
   lol = createSprite(1, 1, 1, 1);
 
