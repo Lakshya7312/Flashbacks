@@ -159,7 +159,7 @@ class Start {
     textSize(22);
     text("Note: > To shoot, you have to hold down the left mouse button instead of just pressing it once, ", windowWidth / 2 - 570, windowHeight / 2 + 370 );
     text("             as it is a laser which needs the gun to generate power.", windowWidth / 2 - 570, windowHeight / 2 + 400);
-    text("          > Some of the enemies are invincible so you have to jump over them as you can't kill them.", windowWidth / 2 - 570, windowHeight / 2 + 450);
+    text("          > Some of the enemies are invincible so you have to jump over them as you can't kill them.", windowWidth / 2 - 570, windowHeight / 2 + 440);
 
   }
 }
