@@ -408,7 +408,7 @@ function draw() {
 
     drawSprites();
 
-    if (part_count === 0 && frameCount % 150 === 0) {
+    if (part_count === 0 && frameCount % 80 === 0) {
       gameState = 3;
     }
 
