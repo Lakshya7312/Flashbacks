@@ -53,6 +53,7 @@ var part_count = 4;
 
 var window, winTele;
 var lol;
+var touches = [];
 
 //defining function preload
 function preload() {
@@ -285,7 +286,7 @@ function draw() {
       player.x = player.x + 5;
     } else if (keyDown("a")) {
       player.x = player.x - 5;
-    } else if (keyDown("space") && player.y >= windowHeight / 2 + 300) {
+    } else if ((keyDown("space") || touches.length > 0) && player.y >= windowHeight / 2 + 300) {
       player.velocityY = -18;
       jumpSound.play();
     }
